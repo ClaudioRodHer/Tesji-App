@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_carreras"
+            android:icon="@drawable/sociology"
+            android:title="@string/carreras" />
+        <item
+            android:id="@+id/nav_instalaciones"
+            android:icon="@drawable/library"
+            android:title="@string/instalaciones" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/servicios" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/location"
+            android:title="@string/ubicacion" />
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/phone"
+            android:title="@string/contacto" />
+        <item
+            android:id="@+id/nav_podcast"
+            android:icon="@drawable/addressbook"
+            android:title="@string/reg" />
+    </group>
+
+    <item
+        android:iconTint="@color/md_green_800"
+
+        android:title="@string/redes"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook2"
+                android:title="@string/face" />
+            <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/youtube"
+                android:title="@string/you" />
+        </menu>
+    </item>
+    <item
+        android:iconTint="@color/md_green_800"
+        android:title="@string/acerca"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/cogs"
+                android:title="@string/desarrollador" />
+
+        </menu>
+    </item>
+
+</menu>

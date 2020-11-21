@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EliminarRegistros"
+    android:orientation="vertical"
+    android:background="@color/md_black_1000">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/eli"
+        android:textColor="@color/md_green_800"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tveliminarr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/numr"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:focusedByDefault="true"
+                android:textColor="@color/md_yellow_700"
+                android:inputType="number"/>
+
+
+            <Button
+                android:id="@+id/btnedlit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/butons"
+                android:layout_marginTop="20dp"
+                android:text="@string/sen"
+                android:textColor="@color/md_yellow_700"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

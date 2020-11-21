@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegAlumnosMain"
+    android:orientation="vertical"
+    android:background="@color/md_black_1000">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombAl"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/md_yellow_700"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/edad"
+        android:textColorHint="@color/md_yellow_700" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/plantel"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/md_yellow_700"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/carrerain"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/md_yellow_700"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/tel"
+        android:textColorHint="@color/md_yellow_700" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/md_yellow_700"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

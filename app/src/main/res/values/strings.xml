@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TESJI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">	tesji.control@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="Carreras" />
+    <string name="carreras">Oferta Academica</string>
+    <string name="instalaciones">Instalaciones</string>
+    <string name="servicios">Servicios</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="contacto">Contacto</string>
+    <string name="face">Facebook</string>
+    <string name="you">Youtube</string>
+    <string name="tesji">TESJI</string>
+    <string name="redes">Redes</string>
+    <string name="acerca">Desarrollador</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="salir">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homess">Soy el Home</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="moreDet">Saber Mas</string>
+    <string name="carrera">Selecciona una carrera</string>
+    <string name="ver">Ver</string>
+    <string name="pod">Podcast</string>
+    <string name="facebook_app_id">268067163975020</string>
+    <string name="fb_login_protocol_scheme">fb268067163975020</string>
+    <string name="alumnos">Registro Alumnos</string>
+    <string name="nombAl">Nombre del Alumno</string>
+    <string name="edad">Edad</string>
+    <string name="plantel">Nombre del Plantel de Procedencia</string>
+    <string name="carrerain">Carrera que te interesa</string>
+    <string name="tel">Telefono</string>
+    <string name="email">Correo Electronico</string>
+    <string name="nuevreg">Nuevo registro</string>
+    <string name="edit">Editar Registro</string>
+    <string name="deletreg">Eliminar registro</string>
+    <string name="reg">Registrarme</string>
+    <string name="mos">Mostrar Registrados</string>
+    <string name="back">Regresar</string>
+    <string name="ap1">Apellido Paterno</string>
+    <string name="ap2">Apellido Materno</string>
+    <string name="sem">Semestre que Cursas</string>
+    <string name="carCur">Carrera que Cursas</string>
+    <string name="act">Actualizar Registro</string>
+    <string name="eli">Eliminar Registro</string>
+    <string name="numr">Numero de Registro</string>
+    <string name="regis">Registros</string>
+    <string name="cln">Limpiar</string>
+    <string name="sen">Enviar</string>
+</resources>

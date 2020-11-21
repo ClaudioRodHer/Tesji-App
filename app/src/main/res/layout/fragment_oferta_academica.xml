@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OfertaAcademica"
+    android:orientation="vertical"
+    android:background="@color/md_black_1000">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carreras"
+        android:layout_gravity="center"
+        android:textColor="@color/md_green_800"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/mtSpinnerOpfAcad"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            app:ms_arrowColor="@color/md_yellow_700"
+            app:ms_arrowSize="20dp"
+            app:ms_floatingLabelColor="@color/md_yellow_A200"
+            app:ms_floatingLabelText="@string/carrera"
+            app:ms_hint="@string/carrera"
+            app:ms_highlightColor="@color/md_yellow_700"
+            app:ms_hintColor="@color/md_yellow_700"
+            app:ms_multiline="true"></fr.ganfra.materialspinner.MaterialSpinner>
+
+        <Button
+            android:id="@+id/btnVER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/butons"
+            android:text="@string/ver"
+            android:textColor="@color/md_black_1000" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgViewerCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/tesji" />
+    <TextView
+        android:id="@+id/txtInfCarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_yellow_700"
+        android:text="@string/carrera"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/masInfBTN"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/butons"
+        android:text="@string/moreDet"
+        android:textColor="@color/md_black_1000" />
+</LinearLayout>

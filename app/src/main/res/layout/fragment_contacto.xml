@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacto"
+    android:orientation="vertical"
+    android:background="@color/md_black_1000">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contacto"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="30dp"/>
+            <ImageView
+                android:id="@+id/imgViewerCarrera"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+
+                android:scaleType="centerInside"
+                android:src="@drawable/tesji"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion\n-Carretera Jilotepec-Chapa de Mota\n Km. 6.5 S/N"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono Celular:\n5586015264"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono 1\n (01761) 73 4 14 46"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono 2\n (01761) 73 4 29 27"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail Tesji\ntesji.direccion@gmail.com"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-Mail TECNAMEX\n dir_dejilotepec@tecnm.mx"
+                android:textColor="@color/md_yellow_700"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <!-- TODO: Update blank fragment layout -->
+
+<!--Carretera Jilotepec-Chapa de Mota Km. 6.5 S/N
+Tel: 5586015264
+Tel: (01761) 73 4 14 46
+Tel: (01761) 73 4 29 27
+tesji.direccion@gmail.com
+dir_dejilotepec@tecnm.mx-->
+</LinearLayout>

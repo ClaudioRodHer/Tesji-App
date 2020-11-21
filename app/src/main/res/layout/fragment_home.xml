@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@color/md_black_1000"
+    android:orientation="vertical"
+   >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bienvenida"
+        android:textColor="@color/md_green_800"
+        android:textSize="50dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="367dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lince" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tesji"
+        android:textColor="@color/md_green_800"
+        android:textSize="50dp" />
+</LinearLayout>

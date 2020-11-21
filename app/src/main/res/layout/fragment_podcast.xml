@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegAlumnosMain"
+    android:orientation="vertical"
+    android:background="@color/md_black_1000">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alumnos"
+        android:textColor="@color/md_yellow_700"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lince" />
+
+
+    <Button
+        android:id="@+id/btnVerreg"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/butons"
+        android:text="@string/mos"
+        android:textColor="@color/md_yellow_700"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnregistro"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/butons"
+        android:text="@string/nuevreg"
+        android:textColor="@color/md_yellow_700"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btnEditarRegistro"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/butons"
+        android:text="@string/edit"
+        android:textColor="@color/md_yellow_700"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btnEliminarRegistro"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/butons"
+        android:text="@string/deletreg"
+        android:textColor="@color/md_yellow_700"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
